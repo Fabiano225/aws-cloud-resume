@@ -3,7 +3,7 @@
 This repository contains the code and infrastructure definitions for my Cloud Resume Challenge. This project is a full-stack serverless application designed to showcase my skills in AWS, Infrastructure as Code, and DevOps best practices.
 
 ## 🚀 Live Demo
-*(Coming soon - I am currently configuring CloudFront & S3)*
+*[fabiano-petillo.dev](https://fabiano-petillo.dev/)*
 ---
 
 ## 🛠 Project Progress Tracker
@@ -11,9 +11,9 @@ This repository contains the code and infrastructure definitions for my Cloud Re
 - [x] **Phase 1: Frontend**
     - [x] Create a professional resume in HTML.
     - [x] Style the resume with CSS.
-- [ ] **Phase 2: S3 & CloudFront Hosting**
-    - [ ] Deploy static files to an S3 Bucket.
-    - [ ] Configure CloudFront for HTTPS and global delivery.
+- [x] **Phase 2: S3 & CloudFront Hosting**
+    - [x] Deploy static files to an S3 Bucket.
+    - [x] Configure CloudFront for HTTPS and global delivery.
 - [ ] **Phase 3: Backend (The Visitor Counter)**
     - [ ] Create a DynamoDB table to store visitor counts.
     - [ ] Write a Python Lambda function to update/retrieve the count.
@@ -35,7 +35,8 @@ Right now, the project is a static website consisting of:
 
 ## 🧠 Lessons Learned (So Far)
 * **Step 1:** I focused on keeping the frontend lightweight. Since my goal is Cloud Engineering rather than Frontend Development, I prioritized clean code over complex frameworks like React.
-
+* **S3:** Quick and painless deployment of static content using S3’s native hosting capabilities.
+* **DNS/HTTPS:** Successfully navigated the integration between Name.com and AWS. This involved configuring DNS records and mastering the validation process for SSL certificates to ensure the site was secure and professional.
 ---
 
 ## 📬 Contact
