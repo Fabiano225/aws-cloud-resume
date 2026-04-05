@@ -34,7 +34,7 @@ Right now, the project is a static website consisting of:
 ---
 
 ## 🧠 Lessons Learned (So Far)
-* **Step 1:** I focused on keeping the frontend lightweight. Since my goal is Cloud Engineering rather than Frontend Development, I prioritized clean code over complex frameworks like React.
+* **Frontend:** I focused on keeping the frontend lightweight. Since my goal is Cloud Engineering rather than Frontend Development, I prioritized clean code over complex frameworks like React.
 * **S3:** Quick and painless deployment of static content using S3’s native hosting capabilities.
 * **DNS/HTTPS:** Successfully navigated the integration between Name.com and AWS. This involved configuring DNS records and mastering the validation process for SSL certificates to ensure the site was secure and professional.
 ---
