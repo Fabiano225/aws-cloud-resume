@@ -18,8 +18,8 @@ This repository contains the code and infrastructure definitions for my Cloud Re
     - [x] Create a DynamoDB table to store visitor counts.
     - [x] Write a Python Lambda function to update/retrieve the count.
     - [x] Set up API Gateway (REST API) to trigger the Lambda.
-- [ ] **Phase 4: Infrastructure as Code (IaC)**
-    - [ ] Define all resources using Terraform.
+- [x] **Phase 4: Infrastructure as Code (IaC)**
+    - [x] Define all resources using Terraform.
 - [ ] **Phase 5: CI/CD Pipeline**
     - [ ] Set up GitHub Actions to auto-deploy frontend and backend changes.
 

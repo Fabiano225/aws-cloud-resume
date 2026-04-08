@@ -1,6 +1,6 @@
 async function getCounter() {
     try {
-        const response = await fetch('https://ubani4qtj1.execute-api.us-east-1.amazonaws.com/production/DynamoDBManager', {
+        const response = await fetch('https://cflxeq0e98.execute-api.us-east-1.amazonaws.com/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
