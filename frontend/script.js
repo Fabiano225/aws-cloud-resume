@@ -7,15 +7,13 @@ async function getCounter() {
             },
             body: JSON.stringify({
                 "operation": "update",
-                "payload": {
-                    "Key": { "MetricName": "homepage_hits" }
-                }
+                "payload": { "Key": { "MetricName": "homepage_hits" } }
             })
         });
 
-        const data = await response.json();
-        const parsedBody = JSON.parse(data.body);             
-        const count = parsedBody.Attributes.VisitorCount;
+        const data = await response.json(); 
+        
+        const count = data.count;
 
         document.getElementById('visitor-counter').innerText = count;
 
