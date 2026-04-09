@@ -20,8 +20,8 @@ This repository contains the code and infrastructure definitions for my Cloud Re
     - [x] Set up API Gateway (REST API) to trigger the Lambda.
 - [x] **Phase 4: Infrastructure as Code (IaC)**
     - [x] Define all resources using Terraform.
-- [ ] **Phase 5: CI/CD Pipeline**
-    - [ ] Set up GitHub Actions to auto-deploy frontend and backend changes.
+- [x] **Phase 5: CI/CD Pipeline**
+    - [x] Set up GitHub Actions to auto-deploy frontend and backend changes.
 
 ---
 
