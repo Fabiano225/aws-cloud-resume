@@ -17,3 +17,11 @@ terraform {
         }
     }
 }
+
+terraform {
+  backend "s3" {
+    bucket = "resume-terraformstate-395833164369-eu-north-1-an"
+    key    = "terraform.tfstate"
+    region = "eu-north-1"
+  }
+}
